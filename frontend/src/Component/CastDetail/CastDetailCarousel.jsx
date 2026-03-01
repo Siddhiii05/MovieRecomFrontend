@@ -64,9 +64,7 @@ const Carousel2 = () => {
     // );
   ));
   const responsive = {
-    0: {
-      items: 2,
-    },
+    0: {items: 2,},
     512: {
       items: 3,
     },

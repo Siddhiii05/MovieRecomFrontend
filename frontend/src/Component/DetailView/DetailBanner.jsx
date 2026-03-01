@@ -32,10 +32,11 @@ const DetailBanner = () => {
   }, []);
 
 
-
-const useStyle = makeStyles(() => ({
+  const useStyle = makeStyles(() => ({
    topdiv:{
-    margin: "50px", display: "flex", flexDirection: "row" ,
+    margin: "50px", 
+    display: "flex", 
+    flexDirection: "row" ,
     "@media (max-width:780px)": {
       flexDirection: "column",
     },
@@ -61,7 +62,6 @@ const useStyle = makeStyles(() => ({
     },
    }
   }));
-
 
 const classes=useStyle()
 
