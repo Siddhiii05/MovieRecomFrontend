@@ -33,7 +33,7 @@ export default function Header({ user }) {
     return () => {
       window.removeEventListener("scroll", listenScrollEvent);
     };
-  }, []);
+  }, []);    
 
   //   ***************** On Scroll Effect Ended*****************
 

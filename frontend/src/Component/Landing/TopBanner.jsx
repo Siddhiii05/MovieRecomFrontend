@@ -63,7 +63,7 @@ const TopBanner = () => {
             variant="h1"
           >
             {" "}
-            MoviesVerse
+            CineGenie
           </Typography>
           <Typography
             style={{
@@ -74,11 +74,11 @@ const TopBanner = () => {
             }}
             variant="h5"
           >
-            We Uses Machine Learning Algorithm To Suggest You Best Movie On The
+            We Use Machine Learning Algorithm To Suggest You Best Movie On The
             Internet
           </Typography>
           <Button onClick={() => navigate(`/home`)} className={classes.btn}>
-            Lets get Into MoviesVerse
+            Lets get Into CineGenie
           </Button>
         </div>
 

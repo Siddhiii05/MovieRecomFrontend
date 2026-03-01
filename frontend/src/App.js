@@ -24,7 +24,7 @@ function App() {
     App: {
       display: "flex",
       flexDirection: "column",
-      backgroundColor: "#da9cc6ff",
+      backgroundColor: "rgb(30, 18, 49)",
     },
     footer: {
       bottom: 0

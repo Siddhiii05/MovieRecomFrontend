@@ -21,7 +21,7 @@ const BelowBanner = () => {
       display: "flex",
       flexDirection: "row",
       margin: "2rem",
-      color: "white",
+      color: "black",
       "@media (max-width:780px)": {
         display: "flex",
         flexDirection: "column",
@@ -48,7 +48,7 @@ const BelowBanner = () => {
           style={{
             fontFamily: "Montserrat",
             fontWeight: "500",
-            fontSize: "40px",
+            fontSize: "50px",
           }}
         >
           Machine Learning
@@ -83,7 +83,7 @@ const BelowBanner = () => {
           style={{
             fontFamily: "Montserrat",
             fontWeight: "500",
-            fontSize: "40px",
+            fontSize: "50px",
           }}
         >
           Features
@@ -93,7 +93,7 @@ const BelowBanner = () => {
           style={{
             fontFamily: "Montserrat",
             fontWeight: "500",
-            fontSize: "17px",
+            fontSize: "27px",
           }}
         >
           Enjoy Latest And Trending Movie and Get Tons of Reviews of Every Movie
