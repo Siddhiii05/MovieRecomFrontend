@@ -52,31 +52,33 @@ export default function Header({ user }) {
 
   //**************************Search Part End***************************************/
 
-  const useStyles = makeStyles(() => ({
+const useStyles = makeStyles(() => ({
     body: {
       color: "pink",
     },
     title: {
-      //   flex: 1,
       color: "#123d6e",
-      fontFamily: "Montserrat",
       fontWeight: "bold",
+      fontFamily: "Montserrat,sans-serif",
+      fontSize: "1.8rem",
       cursor: "pointer",
       paddingLeft: "10px",
     },
     btn: {
       color: navTextCol,
+      fontFamily: "Montserrat,sans-serif",
+      fontWeight: "600",
     },
     cssLabel: {
       color: navTextCol,
       "&.Mui-focused": {
-        color: navTextCol,
+        color: "#123d6e",
       },
     },
     multilineColor: {
       color: navTextCol,
       "&.Mui-focused": {
-        color: navTextCol,
+        color: "#123d6e",
       },
     },
   }));

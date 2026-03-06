@@ -52,7 +52,7 @@ const DetailBanner = () => {
      height:"500px",
      width:"100%",
      '&:hover': {
-      background: "#e2e7e9",
+      background: "#ffffff",
       color:"black",
       boxShadow: "-2px -4px 400px -37px rgba(158,158,150,0.95);"
    },
