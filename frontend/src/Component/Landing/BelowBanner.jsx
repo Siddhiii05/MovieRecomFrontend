@@ -58,7 +58,7 @@ const BelowBanner = () => {
           style={{
             fontFamily: "Montserrat",
             fontWeight: "500",
-            fontSize: "17px",
+            fontSize: "25px",
           }}
         >
           We Use Machine Learning Algorithm To Suggest You Best Movie Based On
