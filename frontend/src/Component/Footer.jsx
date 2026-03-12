@@ -27,9 +27,9 @@ const Footer = ({ user }) => {
       cursor: "pointer",
     },
     topDiv:{
-      backgroundColor: "#e2e7e9",
+      backgroundColor: "#cad4d8",
       alignItems: "center",
-      marginTop: "9.1rem",
+      marginTop: "18rem",
       height: "40vh",
       paddingBlock: "40px",
       display: "flex",
@@ -38,8 +38,8 @@ const Footer = ({ user }) => {
       flexDirection: "row",
       "@media (max-width:780px)": {
         flexDirection: "column",
-        marginTop:"3rem",
-      height: "70vh",
+        marginTop:"10rem",
+      height: "10vh",
       },
     }
   }));
