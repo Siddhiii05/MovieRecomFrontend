@@ -21,6 +21,9 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
+  "engines": {
+    "node": ">=20.0.0"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "CI=false react-scripts build",
@@ -32,9 +35,6 @@
       "react-app",
       "react-app/jest"
     ]
-  },
-  "engines": {
-    "node": ">=v23.11.0"
   },
   "browserslist": {
     "production": [
