@@ -20,11 +20,11 @@ export const userContext = createContext();
 
 
 function App() {
-  const useStyles = makeStyles(() => ({
+const useStyles = makeStyles(() => ({
     App: {
       display: "flex",
       flexDirection: "column",
-      backgroundColor: "#da9cc6ff",
+      minHeight: "100vh",
     },
     footer: {
       bottom: 0
@@ -77,6 +77,8 @@ function App() {
           < Route exact path="/login" element={user ? <Navigate to="/" /> : <Login />} />
           < Route exact path="/casts/:id" element={<CastDetail />} />
           < Route exact path="/upcoming" element={<Upcoming />} />
+          < Route exact path="/search/:id" element={<SearchPages />} />
+          < Route exact path="/recomm/detail/:id/:title" element={<RecomDetailView />} />
           < Route exact path="/search/:id" element={<SearchPages />} />
           < Route exact path="/recomm/detail/:id/:title" element={<RecomDetailView />} />
           < Route exact path="/filter/:id/:title" element={<Filter />} />

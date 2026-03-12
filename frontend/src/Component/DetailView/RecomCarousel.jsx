@@ -90,7 +90,7 @@ const RecmCarousel = () => {
 
   const [movie5, setMovie5] = useState([]);
 
-  useEffect(() => {
+  /*useEffect(() => {
     const fetchMovie5 = async () => {
       const { data } = await Axios.get(
         `https://api.themoviedb.org/3/movie/${content.movie_name5}?api_key=b9e11d2c8939104a4a755544e4eb8847&language=en-US`
@@ -99,7 +99,7 @@ const RecmCarousel = () => {
       console.log(data);
     };
     fetchMovie5();
-  }, [content]);
+  }, [content]);*/
 
   const items = [
     <Button
